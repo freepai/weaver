@@ -14,5 +14,5 @@ var (
 )
 
 func InitCommon(cfg *viper.Viper) {
-	cfg.SetDefault(InternalKey, "@every 5m")
+	cfg.SetDefault(InternalKey, "@every 10s")
 }

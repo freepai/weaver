@@ -5,6 +5,6 @@ sshKey:
 kubeConfig:
   path: "./kube/config"
 watch:
-  url: "git@github.com:freepai/kubecloud.git"
+  url: "git@gitee.com:yubing744/gitops-app-demo1.git"
   ref: "master"
-  path: "/.kube_service.yaml"
+  path: "/app.weaver.yaml"

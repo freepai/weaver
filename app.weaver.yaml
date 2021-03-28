@@ -1,5 +1,5 @@
 group: "freepai"
-name: "mineros"
+name: "weaver"
 version: "0.1.0"
 registry:
   host: "registry.us-west-1.aliyuncs.com"
