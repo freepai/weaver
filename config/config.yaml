@@ -1,0 +1,10 @@
+name: "worker1"
+sshKey:
+  key: "./examples/gpu_worker/keys/kubecloud_rsa"
+  password: ""
+kubeConfig:
+  path: "./kube/config"
+watch:
+  url: "git@github.com:freepai/kubecloud.git"
+  ref: "master"
+  path: "/.kube_service.yaml"

@@ -1,0 +1,14 @@
+group: "freepai"
+name: "mineros"
+version: "0.1.0"
+registry:
+  host: "registry.us-west-1.aliyuncs.com"
+  username: "xxxxx"
+  password: "xxxxxxxx"
+image:
+  dockerfile: "/Dockerfile"
+  context: "/"
+resources:
+  - /deployments/deploy.yaml
+  - /deployments/service.yaml
+  - /deployments/ingress.yaml
